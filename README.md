@@ -10,7 +10,7 @@ Once executed, the program should request the user to input a currency code (USD
 
 If the currency code provided is not supported by the API, a message should inform the user.
 
-To run the application, Please build the application first execute the below,
+To run the application, Please build the application first by executing the below command,
 * **mvn clean install**
 
 You will find the jar file under - **Coindesk/target/CoinDesk-1.0-SNAPSHOT.jar**
