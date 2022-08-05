@@ -9,3 +9,14 @@ Once executed, the program should request the user to input a currency code (USD
 * The highest Bitcoin rate in the last 30 days, in the requested currency
 
 If the currency code provided is not supported by the API, a message should inform the user.
+
+To run the application, Please build the application first execute the below,
+* **mvn clean install**
+
+You will find the jar file under - **Coindesk/target/CoinDesk-1.0-SNAPSHOT.jar**
+
+Application is Dockerized and published at https://hub.docker.com/
+
+Use below command to run
+
+**docker run -it gopinathdhanapaldocker/coindesk:latest**
